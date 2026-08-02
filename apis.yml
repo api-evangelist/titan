@@ -1,8 +1,25 @@
 aid: titan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/titan.png
 name: Titan
-description: Titan is a company surfaced as a portfolio company of a16z, accel, general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Titan (Titan Global Capital Management USA LLC) is a New York City wealth-management firm
+  founded in 2017 that offers app-based investing and advisory services to high-performing professionals
+  and emerging high-net-worth individuals. Its product suite spans actively managed Flagship, Smart Treasury
+  and Opportunities funds, direct indexing, automated stocks and bonds, venture-fund access, credit and
+  real-estate strategies, crypto, and dedicated CFP-led wealth advisory, managing over $1.2 billion for
+  10,000+ clients. Titan is a consumer fintech application delivered via web and mobile apps; it does not
+  publish a public developer API, developer portal, or API documentation. This profile was surfaced as a
+  portfolio company of a16z, accel, and general-catalyst.
 url: https://raw.githubusercontent.com/api-evangelist/titan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Wealth Management
+- Investing
+- Finance
+- Fintech
+- Financial Services
+- Robo-Advisor
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.titan.com/
+- type: Blog
+  url: https://www.titan.com/blog
+- type: Support
+  url: https://help.titan.com/
+- type: SignUp
+  url: https://app.titan.com/join
+- type: Login
+  url: https://app.titan.com/login
+- type: PrivacyPolicy
+  url: https://www.titan.com/privacy-policy
+- type: TermsOfService
+  url: https://cdn.titanvest.com/disclosures/titan-terms-of-use.pdf
+- type: DomainSecurity
+  url: security/titan-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
